@@ -8,8 +8,8 @@ import javax.swing.JPanel;
 //Ctrl+ F11 - 실행
 public class FlowLayoutEx01 extends MyFrame {
 
-	public FlowLayoutEx01() {		
-		super(300,300);
+	public FlowLayoutEx01() {
+		super(300, 300);
 		System.out.println("FlowLayoutEx01"); // 생략되어있음
 		JPanel panel = (JPanel) getContentPane(); // JFrame의 패널 가져오기
 		panel.setLayout(new FlowLayout());
@@ -22,7 +22,7 @@ public class FlowLayoutEx01 extends MyFrame {
 		panel.add(btn2);
 		panel.add(btn3);
 		panel.add(btn4);
-		
+
 		setVisible(true); // 그림 그리기
 	}
 

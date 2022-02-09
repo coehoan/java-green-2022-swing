@@ -82,7 +82,7 @@ public class EventEx02 extends JFrame implements UserInterface {
 				System.out.println(myPanel.x);
 				System.out.println(myPanel.y);
 
-				myPanel.repaint();
+				repaint();
 			}
 		});
 	}

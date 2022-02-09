@@ -61,7 +61,7 @@ public class EventEx01 extends JFrame {
 			public void itemStateChanged(ItemEvent e) {
 				if (e.getStateChange() == 1) {
 					System.out.println("체크완료");
-				} else if (e.getStateChange() == 2) {
+				} else {
 					System.out.println("체크해제");
 				}
 			}
@@ -75,6 +75,7 @@ public class EventEx01 extends JFrame {
 			public void actionPerformed(ActionEvent e) {
 				System.out.println("버튼1 클릭 완료");
 			}
+
 		});
 		btn2.addActionListener(new ActionListener() {
 
